@@ -90,10 +90,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
             var font : UIFont
             
             if switchItalic.isOn {
-                font = UIFont.init(name: "Avenir-Light", size: 12)!
+                font = UIFont.init(name: "Avenir-Light", size: self.labelResult.font.pointSize)!
                 
             } else {
-                font = UIFont.init(name: "Avenir-Medium", size: 12)!
+                font = UIFont.init(name: "Avenir-Medium", size: self.labelResult.font.pointSize)!
                 
             }
             //Set values or parameters directly
